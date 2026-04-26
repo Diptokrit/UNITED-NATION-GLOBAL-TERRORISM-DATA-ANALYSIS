@@ -17,6 +17,24 @@ The project aims to:
 - Present all findings through an interactive Power BI dashboard  
 
 ---
+## 🔄 Project Workflow
+
+The overall workflow of the project follows a structured sequence, starting from raw data and ending with final insights and visualization.
+
+The process begins with data collection and understanding the structure of the dataset. This is followed by data preprocessing, where missing values are handled, relevant features are selected, and the data is cleaned to ensure consistency.
+
+Once the data is prepared, exploratory data analysis (EDA) is performed to identify trends, distributions, and patterns in the dataset. This step helps in building an initial understanding and guides further analysis.
+
+After EDA, the data is transformed into suitable formats for machine learning. Transaction-based formatting is used for association rule mining, while numerical encoding is applied for clustering techniques.
+
+Next, unsupervised machine learning algorithms such as Apriori, FP-Growth, and K-Means are applied to uncover hidden patterns, relationships, and groupings within the data.
+
+The results obtained from these models are then analyzed and interpreted to extract meaningful insights. Finally, all the findings are visualized using a Power BI dashboard, which allows users to interact with the data and explore different aspects of the analysis.
+
+This step-by-step workflow ensures that the project moves logically from raw data to actionable insights.
+
+<img width="1438" height="954" alt="image" src="https://github.com/user-attachments/assets/4eef9f17-09f2-4117-9614-33d5db5a1241" />
+
 
 ## 📊 Dataset Overview
 
