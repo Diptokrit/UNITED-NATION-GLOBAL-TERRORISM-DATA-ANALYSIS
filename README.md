@@ -116,6 +116,14 @@ This approach made it possible to identify meaningful patterns, such as which ty
 - Extracted frequent patterns efficiently  
 - Generated association rules  
 
+The FP-Growth algorithm was applied as an alternative to the Apriori method to efficiently identify frequent patterns in the dataset.
+
+Instead of generating multiple candidate itemsets like Apriori, this approach uses a compact data structure known as an FP-Tree. This allows the algorithm to scan the dataset more efficiently and extract frequent patterns without excessive computation.
+
+Once the frequent patterns were identified, association rules were generated in a similar way, helping to understand the relationships between different variables.
+
+The main advantage of using FP-Growth was its efficiency, especially when working with larger datasets. It also helped in validating the patterns discovered using the Apriori algorithm, ensuring that the results were consistent and reliable.
+
 **Purpose:**  
 To improve performance and validate patterns found using Apriori.
 
@@ -133,6 +141,15 @@ To identify **hidden groupings and similarities in attack behavior**.
 **Observation:**  
 Clustering was less effective compared to association rule mining due to the categorical nature of the dataset.
 
+### K-Means Clustering
+
+K-Means clustering was applied to group similar patterns within the dataset and explore whether attacks could be categorized into distinct clusters.
+
+Since the algorithm requires numerical input, categorical features such as weapon type and target type were first converted into numerical values using label encoding. After preprocessing, the model was trained using K = 3 to divide the data into three clusters.
+
+The goal of this approach was to identify underlying groupings in the data and understand whether certain types of attacks share similar characteristics.
+
+However, it was observed that clustering was not as effective as association rule mining in this case. This is mainly because the dataset is largely categorical, and converting it into numerical form does not always preserve meaningful relationships between categories.
 ---
 
 ## 📈 Power BI Dashboard
@@ -161,7 +178,15 @@ The dashboard allows users to **interactively explore the data and understand pa
 - Attacks are concentrated in specific regions such as the Middle East and South Asia  
 - Bombing and explosive attacks are the most commonly used methods  
 - Private citizens are the most frequently targeted group  
-- Strong relationships exist between weapon types and target categories  
+- Strong relationships exist between weapon types and target categories
+
+From the overall analysis, several important patterns were observed. It was found that terrorist attacks increased significantly after 2010 and reached a peak around the mid-2010s, indicating a period of intensified activity.
+
+The data also showed that attacks are not evenly distributed across the world, but are concentrated in specific regions, particularly the Middle East and South Asia. This highlights the regional nature of such incidents.
+
+In terms of attack methods, bombing and explosive-based attacks were found to be the most commonly used, suggesting a preference for high-impact strategies. Additionally, private citizens were identified as the most frequently targeted group, indicating that many attacks are aimed at causing widespread public fear.
+
+The machine learning analysis further revealed that there are strong relationships between weapon types and target categories, confirming that these incidents follow certain patterns rather than occurring randomly.
 
 ---
 
@@ -178,6 +203,13 @@ The dashboard allows users to **interactively explore the data and understand pa
 
 - **Power BI** → Dashboard creation and visualization  
 
+This project was implemented using a combination of Python-based tools for data analysis and Power BI for visualization.
+
+Python was used for data preprocessing, analysis, and model implementation. Libraries such as Pandas were used for handling and manipulating the dataset, NumPy was used for performing numerical operations, and Matplotlib was used to create basic visualizations during the exploratory analysis phase.
+
+For the machine learning part, Scikit-learn was used to implement the K-Means clustering algorithm, while the MLxtend library was used to apply Apriori and FP-Growth algorithms for association rule mining.
+
+Finally, Power BI was used to design and develop an interactive dashboard, allowing the insights to be presented in a clear and visually appealing way.
 ---
 
 ## 📷 Dashboard Preview
@@ -186,27 +218,23 @@ The dashboard allows users to **interactively explore the data and understand pa
 
 ---
 
-## 🔗 Project Links
-
-- 📊 **Power BI Dashboard**: [Paste Google Drive Link]  
-- 📓 **Google Colab Notebook**: [Paste Link]  
-- 💻 **GitHub Repository**: [Paste Link]  
-
----
-
 ## 👤 Author
 
-- Name: Your Name  
-- LinkedIn: [Paste your LinkedIn link]  
+- Name: Diptokrit Chowdhury 
+- LinkedIn: [https://www.linkedin.com/in/diptokrit-chowdhury-38b7b327a/]  
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates how combining data preprocessing, exploratory analysis, machine learning, and visualization can transform raw data into meaningful insights.
+This project demonstrates how combining data preprocessing, exploratory data analysis, machine learning, and visualization can help transform raw and complex data into meaningful insights.
 
-By analyzing global terrorism data, we were able to identify trends, uncover relationships, and understand patterns that are not immediately visible.
+Through the analysis of global terrorism data, it was possible to understand how attack patterns have evolved over time and how they vary across different regions. The exploratory analysis helped in identifying major trends, such as the rise in attacks during certain periods and the concentration of incidents in specific parts of the world.
 
-The integration of a Power BI dashboard further enhances usability by allowing users to explore the data interactively and gain deeper insights.
+Applying machine learning techniques added another layer to the analysis. The use of association rule mining made it possible to identify relationships between weapon types and target categories, showing that these incidents often follow certain patterns rather than occurring randomly. Clustering was also explored to group similar attack behaviors, which provided additional perspective, even though it was less effective due to the nature of the data.
+
+The Power BI dashboard played an important role in presenting these findings in a clear and interactive way. Instead of just looking at static results, users can explore the data through filters, maps, and charts, making it easier to understand the insights and patterns discovered during the analysis.
+
+Overall, this project highlights the importance of a structured and step-by-step approach to data analysis. By combining different techniques and tools, it becomes possible to gain a deeper understanding of real-world datasets and uncover insights that are not immediately obvious.
 
 ---
