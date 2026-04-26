@@ -160,12 +160,12 @@ An interactive dashboard was created using Power BI to present the findings in a
 
 - **KPI Cards** → Total attacks, total kills, total wounded, and successful attacks  
 - **Filters (Slicers)** → Year, Region, and Attack Type  
-- **Map Visualization** → Global distribution of attacks 🌍  
+- **Map Visualization** → Global distribution of attacks   
 - **Bar Charts** →  
   - Attacks by region  
   - Attack type distribution  
-- **Line Chart** → Trend of attacks over time 📉  
-- **Donut Chart** → Target distribution 🍩  
+- **Line Chart** → Trend of attacks over time  
+- **Donut Chart** → Target distribution   
 - **Insights Section** → Key findings summarized  
 
 The dashboard allows users to **interactively explore the data and understand patterns easily**.
