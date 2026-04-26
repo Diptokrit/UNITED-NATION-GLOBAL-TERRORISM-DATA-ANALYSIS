@@ -1,4 +1,4 @@
-# 🌍 Global Terrorism Analysis Dashboard
+#  United Nation Global Terrorism Dataset Analysis 
 
 ---
 
