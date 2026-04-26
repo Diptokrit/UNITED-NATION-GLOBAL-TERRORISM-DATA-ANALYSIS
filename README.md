@@ -52,6 +52,20 @@ The following steps were performed:
 
 This step ensured that the dataset was **clean, structured, and ready for further analysis**.
 
+The exploratory data analysis (EDA) phase was carried out to better understand the dataset and identify meaningful patterns within the data.
+
+During this stage, the overall trend of attacks over the years was analyzed to observe how terrorist activities have increased or decreased over time. This helped in identifying periods where there was a noticeable rise in incidents.
+
+A region-wise analysis was also performed to understand which parts of the world are most affected. This made it clear that attacks are not evenly distributed and are concentrated in specific regions.
+
+The distribution of attack types was studied to identify the most commonly used methods. It was observed that certain types of attacks occur more frequently, indicating preferred strategies.
+
+Similarly, target analysis was conducted to understand which groups are most frequently affected. This helped in identifying that certain categories, such as civilians, are targeted more often.
+
+In addition to these, comparisons were made between different variables to understand how they relate to each other. Patterns such as repeated combinations of weapons and targets were also observed, which later supported the machine learning analysis.
+
+Overall, this step helped in building a clear understanding of the data and provided a strong foundation for applying machine learning techniques in the next stage.
+
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
