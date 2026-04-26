@@ -33,7 +33,8 @@ The results obtained from these models are then analyzed and interpreted to extr
 
 This step-by-step workflow ensures that the project moves logically from raw data to actionable insights.
 
-<img width="1438" height="954" alt="image" src="https://github.com/user-attachments/assets/4eef9f17-09f2-4117-9614-33d5db5a1241" />
+<img width="2030" height="1214" alt="image" src="https://github.com/user-attachments/assets/a383ad48-a979-40db-af25-02f91340b1dd" />
+
 
 
 ## 📊 Dataset Overview
