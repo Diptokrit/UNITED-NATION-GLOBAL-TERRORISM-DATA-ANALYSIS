@@ -89,7 +89,7 @@ Since the dataset does not contain predefined labels, **unsupervised learning te
 
 ---
 
-### 🔗 Apriori Algorithm (Association Rule Mining)
+### 🔗 Apriori Algorithm 
 
 - Converted data into a **transaction format**  
 - Generated **frequent itemsets**  
@@ -101,6 +101,13 @@ Since the dataset does not contain predefined labels, **unsupervised learning te
 **Purpose:**  
 To identify relationships between **weapon types and target types**.
 
+The Apriori algorithm was used to identify relationships between different features in the dataset, particularly between weapon types and target types.
+
+To apply this method, the data was first converted into a transaction-based format, where each record represents a combination of attributes. The algorithm then scanned the data to find frequently occurring itemsets based on a minimum support threshold.
+
+Once the frequent itemsets were generated, association rules were created to understand how strongly different variables are related to each other. These rules were evaluated using key metrics such as support, confidence, and lift, which help measure the frequency and strength of the relationships.
+
+This approach made it possible to identify meaningful patterns, such as which types of weapons are commonly associated with specific targets, indicating that these events follow certain structured behaviors rather than occurring randomly.
 ---
 
 ### ⚡ FP-Growth Algorithm
