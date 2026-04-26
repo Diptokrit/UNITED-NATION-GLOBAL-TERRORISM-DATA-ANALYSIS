@@ -214,7 +214,6 @@ Finally, Power BI was used to design and develop an interactive dashboard, allow
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot]
 <img width="1726" height="971" alt="image" src="https://github.com/user-attachments/assets/536f116b-e10e-4de7-bd9a-859622a89aee" />
 
 ---
